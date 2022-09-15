@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Metropolis';
+    src: url('Font/Metropolis-Regular.eot');
+    src: url('Font/Metropolis-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Font/Metropolis-Regular.woff2') format('woff2'),
+        url('Font/Metropolis-Regular.woff') format('woff'),
+        url('Font/Metropolis-Regular.ttf') format('truetype'),
+        url('Font/Metropolis-Regular.svg#Metropolis-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Metropolis';
+    src: url('Font/Metropolis-Bold.eot');
+    src: url('Font/Metropolis-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Font/Metropolis-Bold.woff2') format('woff2'),
+        url('Font/Metropolis-Bold.woff') format('woff'),
+        url('Font/Metropolis-Bold.ttf') format('truetype'),
+        url('Font/Metropolis-Bold.svg#Metropolis-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
