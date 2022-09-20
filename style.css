@@ -1,3 +1,59 @@
-h1{
-    font-family: 'Oswald', sans-serif;
+.header{
+    /* border: 3px solid red; */
+    box-shadow: 1px 3px 4px 0px rgba(0,0,0,0.12);
+    -webkit-box-shadow: 1px 3px 4px 0px rgba(0,0,0,0.12);
+    -moz-box-shadow: 1px 3px 4px 0px rgba(0,0,0,0.07);
+}
+.container{
+    /* border: 3px solid green; */
+    width: 1370px;
+    margin: auto;
+    max-width: 100%;
+    display: flex;
+}
+.logo{
+    /* border: 3px solid yellow; */
+    width: 151px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.menu{
+    display: flex;
+    flex: 1;
+    /* border: 3px solid black; */
+    /* width: 80%; */
+    align-items: center;
+    justify-content: flex-end;
+}
+.menu a{
+    /* border: 3px solid gray; */
+    padding: 10px;
+    margin: 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.burger-menu{
+    display: none;
+}
+
+@media (max-width: 991px) {
+    .menu{
+        display: none;
+    }
+    .burger-menu{
+        display: block;
+        display: flex;
+        flex: 1;
+        justify-content: end;
+        align-items: center;
+    }
+    .burger-menu img{
+        width: 40px;
+    }
+}
+@media (max-width: 767px) {
+    .menu{
+        
+    }
 }
